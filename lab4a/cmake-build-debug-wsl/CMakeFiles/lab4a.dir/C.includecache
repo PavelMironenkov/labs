@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/lab4a/functions.h
+locale.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+
+/mnt/d/lab4a/main.c
+functions.h
+/mnt/d/lab4a/functions.h
+
